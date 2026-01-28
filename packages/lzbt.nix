@@ -4,7 +4,7 @@ in
   mkDerivation {
     pname = "lzbt-bin";
     version = "v1.0.0";
-    src = ../tars/${hostPlatform.system}/lzbt-v1.0.0.tar.gz;
+    src = ./${hostPlatform.system}/lzbt-v1.0.0.tar.gz;
 
     dontBuild = true;
     dontConfigure = true;
